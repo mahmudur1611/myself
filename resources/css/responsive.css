@@ -1,0 +1,105 @@
+@media only screen and (max-width: 991px){
+    .container{
+        max-width: 980px;
+    }
+    .nav-menu {
+        display: inline-block;
+        color: #fff;
+        font-size: 22px;
+        border: 1px solid #fff;
+        padding: 5px 7px;
+        line-height: 20px;
+    }
+    .navbar-nav{
+        background-color: #000;
+        padding: 50px 0;
+    }
+    .nav-item{
+        margin-top: 10px;
+        border:1px solid #e84118;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding: 5px 0 8px;
+    }
+    .nav-item .nav-link{
+        text-align: center;
+    }
+    .nav-link:hover{
+        border-right: none;
+        border-left: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .skill-progress-section{
+        width: 96%;
+        margin: 0;
+    }
+    .counter-sec{
+        height: 560px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header img{
+        width: 100px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .animated-typewritter,
+    .animated-typewritter a{
+        font-size: 20px;
+    }
+    .header-social a{
+        font-size: 16px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .about-top .justify-content-end{
+        justify-content: flex-start !important;
+        margin-top: 50px;
+    }
+    .abt-img img{
+        max-width: 90%;
+    }
+    .counter-sec{
+        height: 1020px;
+    }
+    .ttl{
+        margin-top: 70px;
+    }
+    .cntct-mail{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    h1{
+        font-size: 35px;
+    }
+    .animated-typewritter,
+    .animated-typewritter a{
+        font-size: 18px;
+    }
+    .animated-typewritter span{
+        margin-right: 6px;
+    }
+    
+}
+
+@media only screen and (max-width: 334px){
+    .btn-m .btn-1{
+        max-width: 150px;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 270px){
+    .abt-img img{
+        max-width: 95%;
+    }
+}
